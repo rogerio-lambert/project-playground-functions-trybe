@@ -117,7 +117,7 @@ function encode(decriptMensage) {
   return mensageEncripted;
 }
 
-// Função verifica  o caratere correponte a um número de 1 a 5 e retorna true se for e false se não for.
+// Função verifica  o caractere correponte a um número de 1 a 5 e retorna true se for e false se não for.
 function isNumber1to5(char) {
   return (char === '1' || char === '2' || char === '3' || char === '4' || char === '5');
 }
